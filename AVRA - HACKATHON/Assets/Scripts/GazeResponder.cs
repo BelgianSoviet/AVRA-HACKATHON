@@ -18,6 +18,7 @@ namespace Assets.Script
 
         public void OnFocusEnter()
         {
+            
              /*for (int i = 0; i < defaultMaterials.Length; i++)
              {
                 // Highlight the material when gaze enters using the shader property.

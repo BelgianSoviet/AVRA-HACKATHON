@@ -254,5 +254,6 @@ namespace HoloToolkit.Unity.InputModule
         {
             HitPosition = (Rays[0].Origin + (lastHitDistance * Rays[0].Direction));
         }
+
     }
 }
