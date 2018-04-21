@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 public class DataBaseByWiwi : MonoBehaviour {
     //SqlConnection MyConnection = new SqlConnection("server=localhost" + "database=Tasks.mdf");
     static DataContext db = new DataContext(@"C:\Users\Im not a hacker\Documents\Tasks.mdf");
-    Table<Task> Tasks = db.GetTable<Task>();
+    //Table<Task> Tasks = db.GetTable<Task>();
     // Use this for initialization
     void Start () {
         DataBaseProcess();
@@ -24,8 +24,13 @@ public class DataBaseByWiwi : MonoBehaviour {
         if (db.Connection.State==System.Data.ConnectionState.Open)
         {
             Debug.Log("Connection established");
-            var query = from task in Tasks where task.taskTitle == "Title" select task;
+           // var query = from task in Tasks where task.taskTitle == "Title" select task;
             Task monday = new Task("mondayToDo", null, System.DateTime.Now);
+            
+            string command = "INSERT INTO Tasks VALUES(" + monday.taskTitle +", " + monday.taskDescription +", " + monday.taskDate + ")";
+            db.ExecuteCommand(command);
+            db.Dispose();
+            Debug.Log("done");
         }
     }
 }
