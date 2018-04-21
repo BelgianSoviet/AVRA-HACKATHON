@@ -21,7 +21,7 @@ public class PlayAnimations : MonoBehaviour {
     {
         anim.Play();
         yield return new WaitForSeconds(anim.clip.length);
-        SceneManager.LoadScene("Working");
+        SceneManager.LoadScene("Idle");
     }
 
 }
