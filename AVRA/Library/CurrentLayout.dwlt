@@ -13,9 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 83
-    width: 1920
+    x: 8
+    y: 75
+    width: 1904
     height: 997
   m_ShowMode: 4
   m_Title: 
@@ -38,7 +38,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 631
-    width: 394
+    width: 391
     height: 316
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
@@ -63,14 +63,14 @@ MonoBehaviour:
   - {fileID: 2}
   m_Position:
     serializedVersion: 2
-    x: 1526
+    x: 1513
     y: 0
-    width: 394
+    width: 391
     height: 947
   m_MinSize: {x: 277, y: 192}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 3524
+  controlID: 135
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,12 +89,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
+    width: 1904
     height: 947
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 100
+  controlID: 134
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -111,7 +111,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 394
+    width: 391
     height: 631
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
@@ -136,7 +136,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 378
+    width: 375
     height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -161,7 +161,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 561
-    width: 1526
+    width: 1513
     height: 386
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -190,7 +190,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1904
     height: 997
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -210,7 +210,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1904
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -231,7 +231,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 977
-    width: 1920
+    width: 1904
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -253,12 +253,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1526
+    width: 1513
     height: 947
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 11
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,12 +277,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1526
+    width: 1513
     height: 561
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 12
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,12 +297,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 378
+    x: 375
     y: 0
-    width: 1148
+    width: 1138
     height: 561
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -331,9 +331,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1528
-    y: 763
-    width: 392
+    x: 1523
+    y: 755
+    width: 389
     height: 295
   m_PersistentViewDataDictionary: {fileID: 0}
   m_Mode: 1
@@ -392,9 +392,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 693
-    width: 1524
+    x: 8
+    y: 685
+    width: 1511
     height: 365
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -409,19 +409,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Antoine\Desktop\New folder\AVRA-HACKATHON\AVRA
+  m_LastProjectPath: C:\Users\andre\Documents\GitHub\AVRA-HACKATHON\AVRA
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 598}
-    m_SelectedIDs: 9c400000
-    m_LastClickedID: 16540
-    m_ExpandedIDs: 000000004c3a00003e3b0000863d0000ea3d0000ac3e0000183f0000563f0000aa3f0000ae400000c040000020410000264100000245000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 564}
+    m_SelectedIDs: 72450000
+    m_LastClickedID: 17778
+    m_ExpandedIDs: 00000000944400007245000096470000f0470000ae4800001849000054490000984900008e4a0000a04a0000fa4a0000004b0000084d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -449,7 +449,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004c3a00003e3b0000863d0000ea3d0000ac3e0000183f0000563f0000aa3f0000ae400000c0400000204100002641000002450000
+    m_ExpandedIDs: 00000000944400007245000096470000f0470000ae4800001849000054490000984900008e4a0000a04a0000fa4a0000004b0000084d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -526,9 +526,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1528
-    y: 132
-    width: 392
+    x: 1523
+    y: 124
+    width: 389
     height: 610
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
@@ -560,16 +560,16 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 132
-    width: 376
+    x: 8
+    y: 124
+    width: 373
     height: 540
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c83a0000
+    m_SelectedIDs: 780b0000
     m_LastClickedID: 0
-    m_ExpandedIDs: 6033fdfffc64fdfff077fdff1abbfdff3a22feff762ffeff8859feff5c66feffee6dfeff4ea7feffdcccfeff82d3feffcc1effffd01effffd61effffde1effffe41effffea1efffff01efffff61effff021fffff0e1fffff4424ffffa425ffff9227ffff9827ffff9e27ffffa427ffffaa27ffffb027ffffb627ffffbc27ffffc227ffffc827ffffd027ffffd627ffffdc27ffffe227ffffe827fffff427ffff3028ffff3628ffff3c28ffff4e28ffff5428ffff5c28ffff8c28ffff9828ffff9e28ffffa428ffffb428ffffba28ffffc628ffffcc28ffffd228ffffde28ffffe428ffffea28fffff628fffffc28ffff0229ffff1e29ffff2429ffff5029ffffaa29ffffc829ffffca29ffffce29ffff3a2affff5e2affff602affff7840ffff7695ffffd4a7ffff68afffffe6c5ffff66f4ffff98fbffff000000007c4d0000984d0000024e0000244e00001253000016540000325400009c540000b6540000c8540000ec540000885a0000925a0000a45a0000be5a00000e5b0000285b0000f45f00007a600000fa60000002610000226100002a6100003a610000546100006e61000086610000ba680000da6800000c69000026690000ac6c0000ea6c0000f26c0000066d00001a6d00004a6d0000626d0000d47f0000f07f000034800000
+    m_ExpandedIDs: f2f3ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -614,9 +614,9 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 380
-    y: 132
-    width: 1144
+    x: 385
+    y: 124
+    width: 1134
     height: 540
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
